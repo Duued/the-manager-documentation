@@ -6,3 +6,7 @@ description: >-
 
 # Welcome to The Manager
 
+The default prefix is `*`
+
+The prefix in DMs can be none meaning `help` would work.
+
