@@ -1,2 +1,2 @@
-# Page
+# Welcome to The Manager
 
