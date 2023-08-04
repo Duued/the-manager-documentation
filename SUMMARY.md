@@ -2,5 +2,12 @@
 
 * [Welcome to The Manager](README.md)
 * [Beta Program](beta-program.md)
+* [Images](images.md)
 * [Moderation](moderation/README.md)
   * [Purge](moderation/purge.md)
+* [Embed Management](embed-management/README.md)
+  * [Create](embed-management/create.md)
+  * [Field Management](embed-management/field-management.md)
+  * [Sending Embeds](embed-management/sending-embeds.md)
+  * [Saving Embeds](embed-management/saving-embeds.md)
+  * [Loading Embeds](embed-management/loading-embeds.md)
