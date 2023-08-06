@@ -11,3 +11,7 @@
   * [Sending Embeds](embed-management/sending-embeds.md)
   * [Saving Embeds](embed-management/saving-embeds.md)
   * [Loading Embeds](embed-management/loading-embeds.md)
+* [Global Tags](global-tags/README.md)
+  * [Tag Creation](global-tags/tag-creation.md)
+  * [Viewing Tags](global-tags/viewing-tags.md)
+  * [Tag Deletion](global-tags/tag-deletion.md)
