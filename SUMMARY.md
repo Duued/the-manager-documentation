@@ -2,7 +2,7 @@
 
 * [Welcome to The Manager](README.md)
 * [Beta Program](beta-program.md)
-* [Images](images.md)
+* [Image Manipulation](image-manipulation.md)
 * [Moderation](moderation/README.md)
   * [Purge](moderation/purge.md)
 * [Embed Management](embed-management/README.md)
