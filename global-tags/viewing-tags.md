@@ -8,7 +8,7 @@ description: >-
 
 ### Getting a tag from a text command
 
-To get a tag from a text command, simply use `*tag [name]`
+To get a tag from a text command, use `*tag [name]`
 
 {% hint style="info" %}
 Tags with spaces in their name do **not** require quotes here.
@@ -26,19 +26,12 @@ To get a tag from a slash command, use `/tag get [name]`
 
 To report a tag, click the Red "Report this tag" button
 
-This button will be disabled after one of the following conditions are met:
+The button disables after a tag is reported or 5 minutes have passed since the command was issued.&#x20;
 
-1. A user reports the tag
-2. 5 minutes have past from the command
-
-When someone clicks this button, the support server will automatically get a notification about the offending tag, allowing the appropriate action to be taken.
-
-{% hint style="info" %}
-If you accidently click the button, join the support server and open a ticket letting someone know. You won't be penalized for accidently doing it unless we think you do it "accidently" too much.
-{% endhint %}
+When someone clicks this button, the support team will automatically get a notification about the offending tag, allowing the appropriate action to be taken.
 
 {% hint style="danger" %}
-Users caught abusing this system will be blacklisted from using the bot. If we notice several reports coming from a specific guild, we may ban the bot from the guild along with users.
+Users caught abusing this system will be blacklisted from using the bot. If we notice several reports coming from a specific guild, we may ban the bot from the guild along with the users.
 {% endhint %}
 
 {% hint style="danger" %}
