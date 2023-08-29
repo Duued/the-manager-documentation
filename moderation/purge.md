@@ -1,12 +1,22 @@
 ---
-description: The purge command uses a powerful flag-like syntax
+description: >-
+  The purge command uses subcommands to identify which type of purge you would
+  like.
 ---
 
 # Purge
 
-The syntax is as follows:\
-\
-`*purge amount -flags`
+
+
+The slash command uses `/purge messages` as the equivalent of the `*purge` command
+
+{% hint style="info" %}
+This duals as a slash command group and a text command group.
+{% endhint %}
+
+## Command syntax
+
+&#x20;`*purge [subcommand] amount`
 
 {% hint style="warning" %}
 This command is useful for moderators, but be careful as it'll very quickly wipe messages you may not intended to wipe
@@ -14,7 +24,7 @@ This command is useful for moderators, but be careful as it'll very quickly wipe
 
 To counter this, there are several **flags** you can use to help purge more efficiently
 
-### Available Flags:
+### Available Subcommands:
 
 \[after/a]- Purge x messages AFTER the selected message
 
@@ -28,11 +38,11 @@ To counter this, there are several **flags** you can use to help purge more effi
 
 ### Examples With Flags
 
-`*purge 10 -a 1234567890` Purge 10 messages after the message with ID `1234567890`
+`*purge a 10 1234567890` Purge 10 messages after the message with ID `1234567890`
 
-`*purge 10 -b 1234567890` Purge 10 messages before the message with ID `1234567890`\
-`*purge 10 -bot` - Purges 10 bot messages
+`*purge before 10  1234567890` Purge 10 messages before the message with ID `1234567890`\
+`*purge bot 10`- Purges 10 bot messages
 
-`*purge 10 -hooks`- Purges 10 webhook messages
+`*purge 12 -hooks`- Purges 12 webhook messages
 
-`*purge 10 -me` - Purges 10 of The Manager's messages
+`*purge 15 -me` - Purges 15 of The Manager's messages
